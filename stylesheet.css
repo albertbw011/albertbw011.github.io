@@ -7,7 +7,7 @@
 body {
     font-family: Roboto, sans-serif;
     line-height: 1.6;
-    background-color: #8596b2;
+    background-color: #e6e6e6;
     color: #fff;
     padding: 20px;
 }
@@ -19,8 +19,13 @@ header {
     color: #fff;
 }
 
+a {
+    color: #646464;
+    text-decoration: none;
+}
+
 a:hover {
-    color: #3b35ea;
+    color: #525252;
 }
 
 header h1 {
@@ -39,15 +44,13 @@ ul li {
 }
 
 ul li a {
-    color: #4b46ee;
-    text-decoration: none;
     font-size: 20px;
 }
 
 section {
     padding: 40px 0;
     margin-bottom: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 20px auto;
@@ -59,9 +62,18 @@ section {
 }
 
 #experience {
-    background-color: aliceblue;
+    background-color: rgb(80, 173, 255);
 }
 
 #projects {
-    background-color: aquamarine;
+    background-color: rgb(128, 223, 255);
+}
+
+.project {
+    background-color: #525252;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
 }
