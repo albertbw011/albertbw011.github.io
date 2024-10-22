@@ -77,3 +77,9 @@ section {
 .project h3 {
     margin-bottom: 10px;
 }
+
+.project img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
