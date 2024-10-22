@@ -7,7 +7,7 @@
 body {
     font-family: Roboto, sans-serif;
     line-height: 1.6;
-    background-color: #e6e6e6;
+    background-color: #ededed;
     color: #fff;
     padding: 20px;
 }
@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #8596b2;
+    background-color: #ededed;
     color: #fff;
 }
 
@@ -72,6 +72,9 @@ section {
 .project {
     background-color: #525252;
     margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
