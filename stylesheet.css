@@ -7,7 +7,7 @@
 body {
     font-family: Roboto, sans-serif;
     line-height: 1.6;
-    background-color: #4287f5;
+    background-color: #8596b2;
     color: #fff;
     padding: 20px;
 }
@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     padding: 20px 0;
-    background-color: #4287f5;
+    background-color: #8596b2;
     color: #fff;
 }
 
@@ -41,7 +41,7 @@ ul li {
 ul li a {
     color: #4b46ee;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 section {
@@ -52,4 +52,16 @@ section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+}
+
+#about {
+    background-color: aqua;
+}
+
+#experience {
+    background-color: aliceblue;
+}
+
+#projects {
+    background-color: aquamarine;
 }
